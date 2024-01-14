@@ -19,4 +19,6 @@ var myComputer = {
   processor: "i7",
 };
 
-console.log(myComputer.price);
+console.log(myComputer.processor);
+myComputer.processor = "i79";
+console.log(myComputer);
